@@ -1,0 +1,4 @@
+﻿  testing.cpp
+C:\Users\stepo\source\repos\laba1_OOP\laba1_OOP\list.h(217): warning C4172: returning address of local variable or temporary: elem
+C:\Users\stepo\source\repos\laba1_OOP\laba1_OOP\iterator.h(69): warning C4172: returning address of local variable or temporary: elem
+  laba1_OOP.vcxproj -> C:\Users\stepo\source\repos\laba1_OOP\Debug\laba1_OOP.exe

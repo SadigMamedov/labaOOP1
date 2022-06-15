@@ -3,6 +3,7 @@
 void JsonFormatChecker::startCheck(string data)
 {
     set<string> setBase;
+    //checkBrackets(data);
     for (int num = 1; num < data.size() - 1; num++)
     {
         checkNameElement(data, &num, &setBase);
@@ -120,3 +121,9 @@ void JsonFormatChecker::checkName(string data, int* num, set<string>* set)
     *num += data.find("\"", *num + 1) - *num + 1;
 }
 
+/*void JsonFormatChecker::checkBrackets(string data)
+{
+    if (data[0] != '{' || data[data.size() - 1] != '}')
+        throw jsonException("Missing the initial brackets {}", "");
+
+}*/
