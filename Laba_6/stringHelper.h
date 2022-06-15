@@ -14,5 +14,5 @@ class stringHelper
 public:
     string deleteSymbol(string data, char symbol);
 };
-//SOLID прочитать
+
 #endif // STRINGHELPER_H
